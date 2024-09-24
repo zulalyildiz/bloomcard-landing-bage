@@ -1,3 +1,7 @@
 export const Footer = () => {
-  return null;
+  return (
+    <div>
+      
+    </div>
+  );
 };
