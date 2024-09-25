@@ -13,7 +13,7 @@ export const ProductShowcase = () => {
   const rotateX = useTransform(scrollYProgress, [0,1], [15,0])
   const opacity = useTransform(scrollYProgress, [0,1], [.5, 1])
   return (
-    <div className="bg-black text-white bg-gradient-to-b from-black to-[#def241] py-[72px] sm:py-24">
+    <div className="text-white bg-gradient-to-b from-[#0d0d0d] to-[#def241] py-[72px] sm:py-24">
       <div className="container">
         <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">
           Gelişmiş Yönetim Paneli

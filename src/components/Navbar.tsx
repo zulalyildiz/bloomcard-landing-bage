@@ -8,7 +8,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <div className='bg-black'>
+    <div className=''>
       <div className="px-4">
         <div className="py-4 flex items-center justify-between">
           <div className="relative">

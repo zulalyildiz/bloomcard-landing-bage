@@ -3,7 +3,7 @@ import XSocial from '../assets/icons/x-social.svg'
 import YouTubeIcon from '../assets/icons/youtube.svg'
 export const Footer = () => {
   return (
-    <footer className='py-5 bg-black text-white/60 border-t border-white/20'>
+    <footer className='py-5 text-white/60 border-t border-white/20'>
       <div className="container">
         <div className="flex flex-col gap-4">
           <div className="text-center">© 2024 <b>Bloom Digital Card</b>. All rights reserved.</div>
