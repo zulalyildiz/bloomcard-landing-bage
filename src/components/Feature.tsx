@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react';
 import NfcShare from '../assets/icons/nfc.svg'
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
+import Image from 'next/image';
 
 export const Feature = ({
     title,
@@ -29,7 +30,7 @@ export const Feature = ({
     return (
         <div key={title} className='border border-white/30 px-5 py-10 text-center rounded-xl sm:flex-1 relative'>
              <motion.div 
-                className='absolute inset-0 border-2 border-green-400 rounded-xl' 
+                className='absolute inset-0 border-2 border-[#def241] rounded-xl' 
                 style={{
                     WebkitMaskImage: maskImage,
                     maskImage,

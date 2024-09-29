@@ -1,3 +1,4 @@
+import NfcShare from '../assets/icons/nfc.svg'
 import { Feature } from "./Feature";
 const features = [
   { 
@@ -21,7 +22,7 @@ export const Features = () => {
   return (
     <div className=" text-white py-[72px] sm:py-24">
       <div className="container">
-        <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">
+        <h2 className="text-center font-bold text-4xl sm:text-6xl tracking-tighter">
           İhtiyacınız Olan Her Şey
         </h2>
         <div className='max-w-xl mx-auto'>
