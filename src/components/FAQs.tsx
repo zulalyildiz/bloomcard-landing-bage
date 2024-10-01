@@ -5,24 +5,24 @@ import MinusIcon from "../assets/icons/minus.svg"
 import { motion, AnimatePresence } from "framer-motion";
 const items = [
   {
-    question: "What payment methods do you accept?",
+    question: "NFC dijital kartvizit nedir ve nasıl çalışır?",
     answer:
-      "We accept all major credit cards, PayPal, and various other payment methods depending on your location. Please contact our support team for more information on accepted payment methods in your region.",
+      "NFC (Near Field Communication) dijital kartvizit, fiziksel bir kartvizit gibi kişisel veya iş bilgilerinizi taşıyan, ancak bu bilgileri dijital olarak paylaşmanıza olanak tanıyan bir teknolojidir. Kartvizit üzerindeki NFC çipi, telefonunuza dokundurulduğunda iletişim bilgilerinizi, sosyal medya hesaplarınızı veya web sitenizi kullanıcıyla paylaşır. Kullanıcıların bu bilgileri telefonlarına kaydetmesi sadece bir dokunuşla mümkündür, bu da kartvizit paylaşımını oldukça hızlı ve pratik hale getirir.",
   },
   {
-    question: "How does the pricing work for teams?",
+    question: "NFC dijital kartviziti kullanmak için hangi telefonlar uygundur?",
     answer:
-      "Our pricing is per user, per month. This means you only pay for the number of team members you have on your account. Discounts are available for larger teams and annual subscriptions.",
+      "NFC dijital kartvizitler, NFC teknolojisini destekleyen hemen hemen tüm modern akıllı telefonlarla kullanılabilir. Bu teknolojiyi Android ve iOS cihazların çoğu destekler. iPhone modelleri, özellikle iPhone 7 ve üzeri modellerde NFC okuma özelliğine sahiptir. Android cihazların büyük bir kısmında ise NFC özelliği varsayılan olarak bulunmaktadır ve ayarlardan aktif edilebilir.",
   },
   {
-    question: "Can I change my plan later?",
+    question: "NFC dijital kartvizit ile hangi bilgileri paylaşabilirim?",
     answer:
-      "Yes, you can upgrade or downgrade your plan at any time. Changes to your plan will be prorated and reflected in your next billing cycle.",
+      "NFC dijital kartvizitler, birçok türde bilgiyi paylaşmanıza olanak tanır. Bunlar arasında adınız ve soyadınız, telefon numaranız, e-posta adresiniz, şirket bilginiz, pozisyonunuz, web siteniz ve sosyal medya hesaplarınız (LinkedIn, Twitter, Instagram vb.) bulunur. Ayrıca, kullanıcıların cihazlarına kolayca ekleyebilmesi için vCard formatında iletişim bilgileri sunabilirsiniz. Kartvizitinizi kişiselleştirerek ihtiyacınıza göre farklı bilgileri de ekleyebilirsiniz.",
   },
   {
-    question: "Is my data secure?",
+    question: "NFC dijital kartvizit güvenli mi? Bilgilerimi paylaşırken risk var mı?",
     answer:
-      "Security is our top priority. We use state-of-the-art encryption and comply with the best industry practices to ensure that your data is stored securely and accessed only by authorized users.",
+      "NFC dijital kartvizitler, bilgi paylaşımı açısından oldukça güvenli bir yöntemdir. NFC teknolojisi, kısa mesafelerde çalışan bir iletişim teknolojisi olduğundan dolayı bilgiler yalnızca birkaç santimetre uzaklıktaki cihazlarla paylaşılabilir. Bu durum, izinsiz erişim ve güvenlik ihlallerini önlemeye yardımcı olur. Ayrıca, sadece istediğiniz bilgileri paylaşmak için kartvizitinizi özelleştirebilir ve güvenlik açısından önemli bilgileri gizli tutabilirsiniz. Yine de, kişisel bilgilerinizi paylaşmadan önce kimlerle paylaştığınıza dikkat etmek önemlidir.",
   },
 ];
 const AccordionItem = ({
